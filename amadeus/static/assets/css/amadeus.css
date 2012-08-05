@@ -1,15 +1,16 @@
 .top {
 	text-align: right;
-	padding: 10px;
+	padding: 10px 100px 10px 10px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
 .container {
+	padding: 0 0 40px 0;
 }
 
 .breadcrumb {
-	padding: 2px 0 2px 150px;
+	padding: 2px 0 2px 270px;
 }
 
 .breadcrumb li {
@@ -18,22 +19,21 @@
 }
 
 .content-leftColumn {
-	position: absolute;
+	/*position: absolute;*/
+	float: left;
 	width: 200px;
-	padding-left: 100px;
 	color: #999;
+	padding: 15px 80px 0 270px
 }
 
 .content-centerRightColumn {
-	margin-left: 30%;
-	padding-right: 80px;
+	width: auto;
+	margin-left: 200px;
+	margin-right: 0;
 }
 
 footer {
-	margin-top: 50px;
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-	margin-bottom: 0 !important;
+	margin-top: 50px 0 0 0 !important;
 	height: 110px;
 	
 	background-color: #1e6d36; /* #318e31 verde um pouco mais claro */
@@ -78,3 +78,50 @@ footer .divider {
   padding: 0 5px;
   color: #548854;
 }
+
+.fieldWrapper {
+	margin-top: 20px;
+}
+
+.formBtnBar {
+	text-align: right;
+}
+
+label {
+	text-decoration: bold;
+}
+
+.labelForRadioGroup {
+	display: inline-block;
+	vertical-align: top;
+}
+
+form input {
+	width: 300px;
+}
+
+form ul {	
+	display: inline-block;
+	margin-left: 15px 
+}
+
+form ul.errorlist {	
+	display: block;
+	color: #b22; 
+}
+
+form li {
+	display: block;
+	vertical-align: bottom;
+}
+
+form li input[type=radio]{
+	margin: 0;
+}
+
+/* overwriting bootstrap.css */
+.well {
+	display: table-cell;
+}
+
+
